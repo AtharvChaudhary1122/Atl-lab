@@ -1,0 +1,270 @@
+<html><head><base href="https://atllab.io/">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ATL Lab - Cutting-Edge Robotics, Hardware, Software, and AI</title>
+<style>
+  :root {
+    --primary-color: #0077be;
+    --secondary-color: #f9a826;
+    --bg-color: #f0f0f0;
+    --text-color: #333;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+  }
+  
+  header {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  nav {
+    background-color: #005a8e;
+    padding: 0.5rem;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin: 0 1rem;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  main {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+  }
+  
+  .hero {
+    background-image: url('https://atllab.io/images/hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+  }
+  
+  .section {
+    margin-bottom: 3rem;
+  }
+  
+  .section h2 {
+    color: var(--primary-color);
+    border-bottom: 2px solid var(--secondary-color);
+    padding-bottom: 0.5rem;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+  }
+  
+  .card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    padding: 1rem;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card h3 {
+    color: var(--primary-color);
+  }
+  
+  footer {
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
+  .animate-fade-in {
+    animation: fadeIn 1s ease-out;
+  }
+</style>
+</head>
+<body>
+  <header>
+    <h1>ATL Lab</h1>
+    <p>Where Robotics, Hardware, Software, and AI Converge</p>
+  </header>
+  
+  <nav>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#robotics">Robotics</a></li>
+      <li><a href="#hardware">Hardware</a></li>
+      <li><a href="#software">Software</a></li>
+      <li><a href="#ai">AI</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  
+  <main>
+    <section class="hero">
+      <div>
+        <h1>Welcome to ATL Lab</h1>
+        <p>Pushing the Boundaries of Technology</p>
+      </div>
+    </section>
+    
+    <section id="about" class="section animate-fade-in">
+      <h2>About ATL Lab</h2>
+      <p>ATL Lab is at the forefront of cutting-edge technology, where brilliant minds come together to innovate in robotics, hardware, software, and AI. Our mission is to create solutions that shape the future and improve lives around the globe.</p>
+    </section>
+    
+    <section id="robotics" class="section animate-fade-in">
+      <h2>Robotics</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Autonomous Systems</h3>
+          <p>Developing self-navigating robots for complex environments.</p>
+        </div>
+        <div class="card">
+          <h3>Human-Robot Interaction</h3>
+          <p>Creating intuitive interfaces for seamless collaboration between humans and machines.</p>
+        </div>
+        <div class="card">
+          <h3>Swarm Robotics</h3>
+          <p>Exploring collective behavior in multi-robot systems.</p>
+        </div>
+      </div>
+    </section>
+    
+    <section id="hardware" class="section animate-fade-in">
+      <h2>Hardware</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Sensor Fusion</h3>
+          <p>Integrating multiple sensor types for enhanced perception.</p>
+        </div>
+        <div class="card">
+          <h3>Custom Actuators</h3>
+          <p>Designing specialized motors and mechanisms for unique applications.</p>
+        </div>
+        <div class="card">
+          <h3>Embedded Systems</h3>
+          <p>Creating efficient, low-power computing solutions for robotics.</p>
+        </div>
+      </div>
+    </section>
+    
+    <section id="software" class="section animate-fade-in">
+      <h2>Software</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Robot Operating System (ROS)</h3>
+          <p>Developing custom packages and tools for the ROS ecosystem.</p>
+        </div>
+        <div class="card">
+          <h3>Computer Vision</h3>
+          <p>Implementing advanced algorithms for object detection and tracking.</p>
+        </div>
+        <div class="card">
+          <h3>Control Systems</h3>
+          <p>Designing robust controllers for complex robotic movements.</p>
+        </div>
+      </div>
+    </section>
+    
+    <section id="ai" class="section animate-fade-in">
+      <h2>Artificial Intelligence</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Machine Learning</h3>
+          <p>Applying state-of-the-art ML techniques to robotics challenges.</p>
+        </div>
+        <div class="card">
+          <h3>Natural Language Processing</h3>
+          <p>Enabling human-like communication between robots and users.</p>
+        </div>
+        <div class="card">
+          <h3>Reinforcement Learning</h3>
+          <p>Training robots to make decisions in dynamic environments.</p>
+        </div>
+      </div>
+    </section>
+    
+    <section id="contact" class="section animate-fade-in">
+      <h2>Contact Us</h2>
+      <p>Interested in collaborating or learning more about our work? Get in touch with us!</p>
+      <form action="https://atllab.io/contact" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+  
+  <footer>
+    <p>&copy; 2023 ATL Lab. All rights reserved.</p>
+  </footer>
+
+  <script src="https://cdn.botpress.cloud/webchat/v2/inject.js"></script>
+  <script src="https://mediafiles.botpress.cloud/b501bae3-b33c-4cc7-8440-f134dacebc0a/webchat/v2/config.js"></script>
+  
+  <script>
+    document.addEventListener('DOMContentLoaded', (event) => {
+      const sections = document.querySelectorAll('.section');
+      
+      const observerOptions = {
+        root: null,
+        rootMargin: '0px',
+        threshold: 0.1
+      };
+      
+      const observer = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('animate-fade-in');
+            observer.unobserve(entry.target);
+          }
+        });
+      }, observerOptions);
+      
+      sections.forEach(section => {
+        observer.observe(section);
+      });
+    });
+  </script>
+</body>
+</html>
